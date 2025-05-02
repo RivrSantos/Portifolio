@@ -69,6 +69,30 @@
     a:hover {
       text-decoration: underline;
     }
+        }
+    .logo {
+        max-width: 120px;
+        margin-bottom: 20px;
+        animation: fadeIn 1.5s ease-in-out;
+    }
+    .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25d366;
+        color: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        font-size: 28px;
+        text-decoration: none;
+        z-index: 999;
+        animation: pulse 2s infinite;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -81,7 +105,7 @@
 
 <section>
   <h2>Sobre Mim</h2>
-  <p>Sou um programador apaixonado por tecnologia, com foco em soluções práticas, inteligentes e voltadas para resultados reais. Atuo em projetos com Python, RPA, Análise de Dados e Desenvolvimento Front-end.</p>
+  <p>Sou um programador apaixonado por tecnologia, com foco em soluções práticas, inteligentes e voltadas para resultados reais. Atuo em projetos com Python, Automações, Análise de Dados e Desenvolvimento Front-end.</p>
 
   <h2>Projetos em Destaque</h2>
 
@@ -140,8 +164,11 @@
   </div>
 
   <h2>Contato</h2>
-  <p>🔗 <a href="https://github.com/RivrSantos" target="_blank">GitHub</a> | 🔗 <a href="https://wa.me/message/XGDS3MVTKCAJI1" target="_blank">WhatsApp</a></p>
+  <p>🔗 <a href="https://github.com/RivrSantos" target="_blank">GitHub</a>
 </section>
+<a href="https://wa.me/message/XGDS3MVTKCAJI1" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+&#x1F4AC;
+</a>
 
 <footer>
   <p>&copy; 2025 Rivr Santos. Todos os direitos reservados.</p>
